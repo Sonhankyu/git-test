@@ -1,10 +1,11 @@
-import TestButton from "./components/TestButton";
+import React from 'react';
+import TestButton from "./components/TestButton/TestButton";
 
 function App() {
   return (
-      <div>
-          <TestButton/>
-      </div>
+      <TestButton>
+        test
+      </TestButton>
   );
 }
 
