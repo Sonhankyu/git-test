@@ -1,5 +1,5 @@
 import React from 'react';
-import TestButton from "./components/TestButton/TestButton";
+import TestButton from "./components/TestButton";
 
 function App() {
   return (

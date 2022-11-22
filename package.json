@@ -1,13 +1,11 @@
 {
   "name": "@sonhankyu/git-test",
-  "version": "1.4.0",
+  "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "files": ["dist", "README.md"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Sonhankyu/git-test"
-  },
+  "repository": "https://github.com/Sonhankyu/git-test.git",
+  "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -25,9 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "clean": "rimraf dist",
-    "compile": "npm run clean babel src/components --out-dir dist --copy-files"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
