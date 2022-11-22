@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "files": ["dist", "README.md"],
   "repository": "https://github.com/Sonhankyu/git-test.git",
+  "author": "sonhankyu <hankyu.son98@gmail.com>",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
